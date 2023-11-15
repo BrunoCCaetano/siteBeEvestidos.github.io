@@ -1,0 +1,11 @@
+@import url("style/header.css");
+@import url("style/carrossel.css");
+
+:root{
+    --cor-de-fundo: #DCCFAF;
+    --vermelho: #B55454;
+    --amarelo: #DCCFAF;
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
