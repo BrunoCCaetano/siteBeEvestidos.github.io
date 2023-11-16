@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>B&E</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <h1 class="titulo">B&E</h1>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">CATEGORIAS</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Homens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Mulheres</a>
+            </li>
+            </ul>
+        <img src="" alt="" class="container__imagem2">
+        </div>
+        <div class="container">
+        <a href="#"><img src="img/compra.png" alt="sacola de compras" class="container__imagem"></a>
+        <a href="#"><img src="img/usuario.png" alt="usuario" class="container__imagem"></a>
+        <a href="#"><img src="img/pesquisa.png" alt="pesquisa" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Sua moda</h2>
+        <p class="banner__texto">Encontre seu estilo aqui</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/vestido 1.jpg" alt="vestido 1"></div>
+              <div class="swiper-slide"><img src="img/vestido 2.jpg" alt="vestido 2"></div>
+              <div class="swiper-slide"><img src="img/vestido 3.jpg" alt="vestido 3"></div>
+            </div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+          <div class="card">
+            <!--primeira linha-->
+            <div class="card__descriçao">
+                <!--primeira coluna-->
+                <div class="descriçao">
+                    <h3 class="descriçao__titulo">TALVEZ VOCÊ TAMBÉM SE INTERESSE...</h3>
+                    <h2 class="descriçao__titulo-vestido">Vestido mais vendido</h2>
+                    <p class="descriçao__texto">Ocasiões especiais</p>
+            </div>
+            <!--segunda coluna-->
+            <img src="img/6472f92d-87e5-483b-a730-cc3e9e6683e9.jpg" class="descriçao__imagem">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="img/compra.png" alt="adicione ao carrinho"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+          </div>
+          <div class="contatos"><h1>Contatos</h1>
+          <l1>Email:</l1>
+          <ul>Número:</ul>
+        </div>
+    </section>
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script>
+         const swiper = new Swiper('.swiper', {
+            spaceBetween: 100,
+            slidesPerview: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+          });
+          </script>
+    
+</body>
+</html>

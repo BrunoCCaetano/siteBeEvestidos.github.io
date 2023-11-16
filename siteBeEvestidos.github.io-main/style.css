@@ -1,0 +1,14 @@
+@import url("style/header.css");
+@import url("style/carrossel.css");
+@import url("style/banner.css");
+@import url("style/contatos.css");
+
+:root{
+    --cor-de-fundo: #DCCFAF;
+    --vermelho: #B55454;
+    --amarelo: #DCCFAF;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
